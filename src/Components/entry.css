@@ -1,0 +1,66 @@
+input {
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 6px 16px;
+  margin: 2px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 4px 16px;
+  margin: 0px 2px;
+}
+
+button {
+  font-size: large;
+  padding: 10px;
+  margin: 10px;
+}
+
+#title-aria {
+  margin: 10px;
+}
+
+#button-aria {
+  margin: 10px;
+}
+
+#table-aria {
+  margin: 10px;
+}
+
+.input-area {
+  display: inline;
+}
+
+.input-list {
+  list-style-type: none;
+}
+.input-table {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border-spacing: 0;
+  table-layout: auto;
+  text-align: center;
+}
+
+.input-table thead {
+  text-align: center;
+}
+
+.input-table th,
+td {
+  padding: 5px 0;
+  line-height: 1.5;
+  width: auto;
+}
+
+.input-table th {
+  border-top: solid 1px #444;
+}
+
+.input-table th span {
+  margin-left: 10px;
+}

@@ -1,0 +1,74 @@
+input {
+  border-radius: 8px;
+  border: 1px solid gray;
+  padding: 6px 16px;
+  margin: 2px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 4px 16px;
+  margin: 0px 2px;
+}
+
+button {
+  font-size: large;
+  padding: 10px;
+  margin: 10px;
+}
+
+#title-aria {
+  margin: 10px;
+}
+
+#button-aria {
+  margin: 10px;
+}
+
+#table-aria {
+  margin: 10px;
+}
+
+.input-area {
+  display: inline;
+}
+
+.input-list {
+  list-style-type: none;
+}
+
+.list-table {
+  border-top: 1px violet;
+  border-right: 1px violet;
+  border-left: 1px violet;
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  border-spacing: 0;
+  table-layout: auto;
+  text-align: center;
+}
+
+.list-table thead {
+  text-align: center;
+}
+
+.list-table th,
+td {
+  padding: 5px 0;
+  line-height: 1.5;
+  width: auto;
+  border-top: solid 1px #444;
+  border-bottom: solid 1px #444;
+  border-right: solid 1px #444;
+  border-left: solid 1px #444;
+}
+
+.list-table th {
+  border-top: solid 1px #444;
+}
+
+.list-table th span {
+  margin-left: 10px;
+}
